@@ -7,8 +7,6 @@ var globalAWSConfig = {
   region: process.env.AWS_REGION,
 };
 
-console.log(globalAWSConfig)
-
 copy(
   {
     config: globalAWSConfig, // config for AWS
